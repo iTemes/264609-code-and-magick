@@ -28,7 +28,7 @@ var getMaxElement = function (arr) {
   return maxElement;
 };
 
-var renderStatistics = function (ctx, names, times) {
+window.renderStatistics = function (ctx, names, times) {
   // Cloud
   renderCloud(ctx, CLOUD_X + SHADOW, CLOUD_Y + SHADOW, 'rgba(0, 0, 0, 0.7)');
   renderCloud(ctx, CLOUD_X, CLOUD_Y, '#fff');
